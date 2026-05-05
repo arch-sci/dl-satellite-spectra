@@ -45,6 +45,7 @@ Training: AdamW, binary cross-entropy, EarlyStopping (patience=15), max 150 epoc
 | Flatten (baseline) | 0.58 | 0.58 | ~0.56 | ~0.56 |
 
 Conv1D decisively outperforms the Flatten baseline — explicitly modelling local wavelength structure with convolutional filters is critical for extracting signal from the spectral sequence.
+This project got a mark of 19/20.
 
 ## Stack
 Python · numpy · pandas · scikit-learn · TensorFlow · Keras · matplotlib · seaborn · scipy
